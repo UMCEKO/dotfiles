@@ -9,3 +9,21 @@ mimeapps.list
 wootility/
 nwg-look/
 nextjs-nodejs/
+ml4w/settings/sidepad-active
+
+
+# ---- Cache / build / state ----
+.cache/
+tmp/
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
+*.toc
+*.aux
+*.o
+*.obj
+*.pyc
+*.pyo
+__pycache__/

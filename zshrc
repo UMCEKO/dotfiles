@@ -1,1 +1,0 @@
-/home/umceko/.mydotfiles/com.ml4w.dotfiles/.config/zshrc
