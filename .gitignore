@@ -10,7 +10,36 @@ wootility/
 nwg-look/
 nextjs-nodejs/
 ml4w/settings/sidepad-active
-
+vlc/
+vesktop/
+user-dirs*
+unity3d/
+trashrc
+systemd/
+spotify-tui/
+simple-update-notifier/
+session/
+rog/
+pavucontrol.ini
+Android Open Source Project/
+Blackmagic Design/
+Google/
+QtProject.conf/
+autostart/
+dolphinrc
+filetypesrc
+flutter/
+github-copilot/
+github-copilot/
+go/
+htop/
+io.hoppscotch.desktop/
+kde.org/
+QtProject.conf
+knfsshare
+libreoffice/
+obs-studio/
+JetBrains/
 
 # ---- Cache / build / state ----
 .cache/
