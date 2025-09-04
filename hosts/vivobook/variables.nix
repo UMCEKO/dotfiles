@@ -26,7 +26,7 @@
   # Kitty, ghostty, wezterm, aalacrity
   # Note: kitty, wezterm, alacritty have to be enabled in `variables.nix`
   # Setting it here does not enable it. Kitty is installed by default
-  terminal = "kitty"; # Set Default System Terminal
+  terminal = "alacritty"; # Set Default System Terminal
 
   keyboardLayout = "us";
   consoleKeyMap = "us";
@@ -36,6 +36,8 @@
 
   # Enable Printing Support
   printEnable = false;
+
+  fileManager = "thunar";
 
   # Themes, waybar and animation.
   #  Only uncomment your selection

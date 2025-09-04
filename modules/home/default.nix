@@ -6,6 +6,7 @@
     ./scripts
     ./waybar
     ./wlogout
+    ./zsh
     ./alacritty.nix
     ./bash.nix
     ./bashrc.nix
@@ -16,7 +17,6 @@
     ./gh.nix
     ./git.nix
     ./gtk.nix
-    ./nvf.nix
     ./obs.nix
     ./qt.nix
     ./starship-ddubs-1.nix

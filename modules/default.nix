@@ -1,1 +1,1 @@
-{ ... }: { imports = [ ./core ./drivers ./home ]; }
+{ ... }: { imports = [ ./core ./drivers ]; }

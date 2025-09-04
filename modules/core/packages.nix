@@ -28,6 +28,10 @@
     #inputs.hyprsysteminfo.packages.${pkgs.system}.default
 
     amfora # Fancy Terminal Browser For Gemini Protocol
+    jq # jq
+    fd # File finder for nvim
+    grimblast # Screenshot tool
+    tree # CLI file tree
     appimage-run # Needed For AppImage Support
     brave # Brave Browser
     brightnessctl # For Screen Brightness Control

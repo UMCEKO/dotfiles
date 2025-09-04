@@ -8,5 +8,4 @@
     nvidiaBusID = "${variables.nvidiaID}";
   };
   drivers.intel.enable = false;
-  vm.guest-services.enable = false;
 }

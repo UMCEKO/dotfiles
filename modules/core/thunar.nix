@@ -1,7 +1,7 @@
 { variables, pkgs, ... }: {
   programs = {
     thunar = {
-      enable = variables.thunarEnable;
+      enable = (variables.fileManager == "thunar");
       plugins = with pkgs.xfce; [ thunar-archive-plugin thunar-volman ];
     };
   };

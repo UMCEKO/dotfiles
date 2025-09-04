@@ -4,13 +4,14 @@
     useUserPackages = true;
     useGlobalPkgs = false;
     backupFileExtension = "backup";
-    extraSpecialArgs = { inherit inputs username host profile; };
+    extraSpecialArgs = { inherit inputs username host profile variables; };
     users.${username} = {
       home = {
         username = "${username}";
         homeDirectory = "/home/${username}";
         stateVersion = "23.11";
       };
+      imports = [ ./../home ];
     };
   };
   users.mutableUsers = true;

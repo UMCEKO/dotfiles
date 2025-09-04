@@ -51,7 +51,7 @@ pkgs.writeShellScriptBin "smart-switch-workspace" ''
   # --- Configuration File Setup ---
   # The script will generate the workspace config at this location.
   # Using $HOME ensures the tilde `~` is expanded correctly.
-  CONF_FILE="$HOME/.config/hypr/scripts/ssw.conf"
+  CONF_FILE="$HOME/.config/hypr/ssw.conf"
   CONF_DIR=$(dirname "$CONF_FILE")
 
   # --- Monitor Detection and Conditional Config Generation ---

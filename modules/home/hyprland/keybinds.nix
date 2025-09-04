@@ -2,7 +2,7 @@
   wayland.windowManager.hyprland = {
     settings = {
       extraConfig = ''
-        source = ~/.config/hypr/ssw.conf
+        source = $HOME/.config/hypr/ssw.conf
       '';
       # ---------------------
       # Key bindings (bind)
