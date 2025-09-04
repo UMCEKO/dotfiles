@@ -1,8 +1,4 @@
-{ host, config, pkgs, ... }:
-let
-  inherit (import ../../../hosts/${host}/variables.nix)
-    extraMonitorSettings keyboardLayout stylixImage;
-in {
+{ variables, config, pkgs, ... }: {
   home.packages = with pkgs; [
     swww
     grim
@@ -35,7 +31,7 @@ in {
     xwayland = { enable = true; };
     settings = {
       input = {
-        kb_layout = "${keyboardLayout}";
+        kb_layout = "${variables.keyboardLayout}";
         kb_options = [ "grp:alt_caps_toggle" "caps:super" ];
         numlock_by_default = true;
         repeat_delay = 300;

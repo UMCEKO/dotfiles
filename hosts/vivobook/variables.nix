@@ -1,13 +1,13 @@
 {
   # Git Configuration ( For Pulling Software Repos )
-  gitUsername = "UMCEKO ";
+  gitUsername = "UMCEKO";
   gitEmail = "umutcevdetkocak@gmail.com";
 
   # Set Displau Manager
   # `tui` for Text login
   # `sddm` for graphical GUI (default)
   # SDDM background is set with stylixImage
-  displayManager = "sddm";
+  displayManager = "tui";
 
   # Emable/disable bundled applications
   tmuxEnable = true;
@@ -36,10 +36,6 @@
 
   # Enable Printing Support
   printEnable = false;
-
-  # Enable Thunar GUI File Manager
-  # Yazi is default File Manager
-  thunarEnable = false;
 
   # Themes, waybar and animation.
   #  Only uncomment your selection
