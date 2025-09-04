@@ -1,9 +1,9 @@
-{ variables, ... }: {
+{ variables, config, ... }: {
   wayland.windowManager.hyprland = {
+    extraConfig = ''
+      source = ${config.home.homeDirectory}/.config/hypr/ssw.conf
+    '';
     settings = {
-      extraConfig = ''
-        source = $HOME/.config/hypr/ssw.conf
-      '';
       # ---------------------
       # Key bindings (bind)
       # ---------------------
