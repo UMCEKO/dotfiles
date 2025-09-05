@@ -1,6 +1,7 @@
 { variables, ... }: {
   imports = [
     variables.animChoice
+    ./monitors
     ./env.nix
     ./exec-once.nix
     ./hypridle.nix

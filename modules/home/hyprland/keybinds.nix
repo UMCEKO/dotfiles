@@ -2,6 +2,7 @@
   wayland.windowManager.hyprland = {
     extraConfig = ''
       source = ${config.home.homeDirectory}/.config/hypr/ssw.conf
+      source = ${config.home.homeDirectory}/.config/hypr/monitor.conf
     '';
     settings = {
       # ---------------------
@@ -51,8 +52,8 @@
         "$modifier CTRL, T, exec, ~/.config/waybar/themeswitcher.sh"
         "$modifier CTRL, S, exec, flatpak run com.ml4w.settings"
         "$modifier CTRL, L, exec, ~/.config/hypr/scripts/power.sh lock"
-        "$modifier, P, exec, switch-monitor"
-        ", XF86Display, exec, switch-monitor"
+        "$modifier, P, exec, switch-monitors"
+        ", XF86Display, exec, switch-monitors"
 
         # Workspaces (switch)
         "$modifier, 1, exec, smart-switch-workspace workspace 1"

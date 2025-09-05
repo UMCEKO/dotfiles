@@ -1,6 +1,8 @@
 { ... }: {
   wayland.windowManager.hyprland = {
     settings = {
+      monitor = [ "HEADLESS-1, 1920x1080@60, 0x0, 1" ];
+      workspace = [ "special:headless, on-created-empty:true" ];
       windowrule = [
         #"noblur, xwayland:1" # Helps prevent odd borders/shadows for xwayland apps
         # downside it can impact other xwayland apps
