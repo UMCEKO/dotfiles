@@ -74,6 +74,7 @@
     jetbrains.rust-rover
     jetbrains.datagrip
     bun
-    wootility
+    wootility # Wooting keyboard management software
+    rustup # Rust toolchain installer
   ];
 }
