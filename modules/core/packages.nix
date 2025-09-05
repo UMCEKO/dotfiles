@@ -68,5 +68,12 @@
     uwsm # Universal Wayland Session Manager (optional must be enabled)
     v4l-utils # Used For Things Like OBS Virtual Camera
     wget # Tool For Fetching Files With Links
+    # Personal apps
+    spotify
+    jetbrains.webstorm
+    jetbrains.rust-rover
+    jetbrains.datagrip
+    bun
+    wootility
   ];
 }
