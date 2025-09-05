@@ -1,4 +1,4 @@
-_: {
+{ username, ... }: {
   security = {
     rtkit.enable = true;
     polkit = {
@@ -16,5 +16,15 @@ _: {
       '';
     };
     pam.services.swaylock = { text = "auth include login "; };
+    # WARNING! This option disables password prompt for sudo, delete the following if you want to disable this.
+    sudo = {
+      extraRules = [{
+        users = [ username ];
+        commands = [{
+          command = "ALL";
+          options = [ "NOPASSWD" ];
+        }];
+      }];
+    };
   };
 }
