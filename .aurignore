@@ -1,0 +1,56 @@
+# Hardware/brand specific
+asusctl-git
+supergfxctl-git
+rog-control-center-git
+g14-*
+g15-*
+
+# Distro specific
+endeavouros-*
+eos-*
+garuda-*
+manjaro-*
+
+# Development versions that change frequently
+*-git
+*-bin
+*-dev
+*-nightly
+
+# NVIDIA proprietary (hardware specific)
+nvidia-*
+optimus-*
+
+# Personal/local packages
+makepkg-*
+aur-auto-vote*
+
+# Font variants
+ttf-*
+otf-*
+nerd-fonts*
+
+# Theme variants (too subjective)
+*-theme*
+*-icons*
+plymouth-*
+
+# Browser specific
+google-chrome*
+microsoft-edge*
+opera*
+
+# Gaming specific
+steam*
+lutris*
+wine*
+
+# Development environments (too personal)
+*-ide
+*-studio
+jetbrains-*
+
+# System monitoring (hardware dependent)
+corectrl*
+gwe*
+nvidia-settings*

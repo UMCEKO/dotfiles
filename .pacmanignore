@@ -1,0 +1,54 @@
+# Hardware specific packages
+nvidia*
+amd-ucode
+intel-ucode
+mesa*
+vulkan*
+xf86-video*
+
+# ASUS specific
+asusctl
+supergfxctl
+rog-control-center
+
+# System/distro specific  
+endeavouros-*
+eos-*
+archlinux-keyring
+archlinux-wallpaper*
+
+# Kernel packages (user should choose)
+linux*
+
+# Drivers that may be hardware specific
+broadcom-wl*
+rtl*
+r8168*
+
+# Microcode (CPU specific)
+*-ucode
+
+# Font packages (too many variants)
+ttf-*
+noto-fonts*
+adobe-source*
+
+# Language packs
+hunspell-*
+libreoffice-*-help
+
+# Base system packages
+base
+base-devel
+glibc
+systemd
+
+# Package managers themselves
+pacman
+yay
+paru
+
+# Hardware specific tools
+lm_sensors
+hddtemp
+smartmontools

@@ -10,11 +10,11 @@
 # =============================================================================
 
 # Password managers and authentication
-NordPass/
-1Password*/
-Bitwarden/
-KeePass*/
-LastPass/
+config/NordPass/
+config/1Password*/
+config/Bitwarden/
+config/KeePass*/
+config/LastPass/
 **/kwallet*
 **/keyrings/
 **/kpasswdserver/
@@ -30,7 +30,7 @@ LastPass/
 **/*.cer
 
 # Git credentials and tokens
-gh/
+config/gh/
 **/git-credentials
 **/.gitconfig-personal
 **/github-token*
@@ -48,14 +48,14 @@ gh/
 # =============================================================================
 
 # Communication apps
-discord/
-vesktop/
-telegram/
-signal/
-whatsapp/
-slack/
-teams/
-zoom/
+config/discord/
+config/vesktop/
+config/telegram/
+config/signal/
+config/whatsapp/
+config/slack/
+config/teams/
+config/zoom/
 
 # Email and contacts
 **/emaildefaults
@@ -66,121 +66,121 @@ zoom/
 **/kaddressbookrc
 **/korganizer*
 **/kaccounts/
-thunderbird/
+config/thunderbird/
 
 # Browsers (contain cookies, passwords, bookmarks)
-chromium/
-google-chrome/
-firefox/
-brave/
-opera/
-vivaldi/
-Microsoft/
-Google/
-mozilla/
+config/chromium/
+config/google-chrome/
+config/firefox/
+config/brave/
+config/opera/
+config/vivaldi/
+config/Microsoft/
+config/Google/
+config/mozilla/
 
 # =============================================================================
 # ENTERTAINMENT & MEDIA
 # =============================================================================
 
 # Music and streaming
-spotify/
-spotify-tui/
-spotify-qt/
-tidal/
-apple-music/
-youtube-music/
-plex/
+config/spotify/
+config/spotify-tui/
+config/spotify-qt/
+config/tidal/
+config/apple-music/
+config/youtube-music/
+config/plex/
 
 # Media players with personal data
-vlc/
-mpv/
-audacious/
-clementine/
+config/vlc/
+config/mpv/
+config/audacious/
+config/clementine/
 
 # Gaming platforms
-steam/
-epic-games/
-gog/
-origin/
-uplay/
-battle.net/
-minecraft/
+config/steam/
+config/epic-games/
+config/gog/
+config/origin/
+config/uplay/
+config/battle.net/
+config/minecraft/
 
 # =============================================================================
 # DEVELOPMENT & WORK ENVIRONMENTS
 # =============================================================================
 
 # IDEs with personal projects and settings
-JetBrains/
-vscode/
-Code/
-sublime-text*/
-atom/
-brackets/
-android-studio/
+config/JetBrains/
+config/vscode/
+config/Code/
+config/sublime-text*/
+config/atom/
+config/brackets/
+config/android-studio/
 
 # AI coding assistants (may contain code/tokens)
-github-copilot/
-codeium/
-tabnine/
+config/github-copilot/
+config/codeium/
+config/tabnine/
 
 # Cloud development platforms
-replit/
-gitpod/
-codespaces/
+config/replit/
+config/gitpod/
+config/codespaces/
 
 # Language-specific environments
-go/
-cargo/
-npm/
-yarn/
-pip/
-maven/
-gradle/
-composer/
+config/go/
+config/cargo/
+config/npm/
+config/yarn/
+config/pip/
+config/maven/
+config/gradle/
+config/composer/
 
 # Framework-specific configs
-nextjs-nodejs/
-flutter/
-react-native/
-unity3d/
-unreal-engine/
+config/nextjs-nodejs/
+config/flutter/
+config/react-native/
+config/unity3d/
+config/unreal-engine/
 
 # Virtual environments and containers
-docker/
-podman/
-virtualenv/
-conda/
-vagrant/
+config/docker/
+config/podman/
+config/virtualenv/
+config/conda/
+config/vagrant/
 
 # =============================================================================
 # HARDWARE & SYSTEM SPECIFIC
 # =============================================================================
 
 # Hardware control software
-rog/                    # ASUS ROG
-wootility/             # Wooting keyboards
-razer/
-corsair/
-logitech/
-steelseries/
+config/rog/
+config/wootility/
+config/razer/
+config/corsair/
+config/logitech/
+config/steelseries/
 
 # Audio/video hardware
-pulse/
-pipewire/
-pavucontrol.ini
-obs-studio/
-elgato/
-streamdeck/
-Blackmagic Design/
+config/pulse/
+config/pipewire/
+config/pavucontrol.ini
+config/obs-studio/
+config/elgato/
+config/streamdeck/
+config/Blackmagic Design/
 
 # Mobile device sync
-Android Open Source Project/
-iTunes/
-icloud/
-samsung/
-xiaomi/
+config/Android Open Source Project/
+config/iTunes/
+config/icloud/
+config/samsung/
+config/xiaomi/
 
 # =============================================================================
 # NETWORK & CONNECTIVITY
@@ -240,28 +240,28 @@ xiaomi/
 # =============================================================================
 
 # User directory configurations
-user-dirs*
+config/user-dirs*
 **/user-dirs.dirs
 **/user-dirs.locale
 
 # Trash and temporary files
-trashrc
+config/trashrc
 **/Trash/
 **/trash/
 
 # Personal autostart applications
-autostart/
+config/autostart/
 **/plasma/shells/org.kde.plasma.desktop/contents/updates/
 
 # Custom service menus (may contain personal scripts)
-servicemenus/
+config/servicemenus/
 
 # =============================================================================
 # SYSTEM SERVICES & HARDWARE CONFIG
 # =============================================================================
 
 # System service configurations
-systemd/
+config/systemd/
 **/systemd/user/
 
 # Power management (hardware specific)
@@ -291,7 +291,7 @@ systemd/
 # =============================================================================
 
 # Cache directories
-.cache/
+config/.cache/
 **/cache/
 **/tmp/
 **/temp/
@@ -338,57 +338,41 @@ systemd/
 # =============================================================================
 
 # Office suites (may contain recent documents)
-libreoffice/
-onlyoffice/
-wps-office/
-
-# Design software (large caches, personal projects)
-gimp/
-inkscape/
-blender/
-krita/
-darktable/
-
-# Video editing (large caches, personal projects)
-kdenlive/
-davinci-resolve/
-openshot/
-
-# 3D modeling
-freecad/
-openscad/
-
-# Archive managers
+config/libreoffice/
+config/onlyoffice/
+config/wps-office/
+config/gimp/
+config/inkscape/
+config/blender/
+config/krita/
+config/darktable/
+config/kdenlive/
+config/davinci-resolve/
+config/openshot/
+config/freecad/
+config/openscad/
+config/winboat/                    # Entire directory - browser-like app data
+config/dconf/user                  # System settings database
+config/libaccounts-glib/          # Account databases
+config/GIMP/3.0/                  # Personal GIMP settings/plugins
+config/kate/externaltools/        # May contain personal scripts/paths
+config/htop/
+config/btop/
+config/gtop/
+config/lxappearance/
+config/qt5ct/
+config/qt6ct/
 **/ark/
-
-# System monitors
-htop/
-btop/
-gtop/
 **/ksysguard/
-
-# Package managers
 **/yay/
 **/paru/
 **/pamac/
 **/discover/
-
-# Theming tools (review - some may be safe)
-lxappearance/
-qt5ct/
-qt6ct/
-
-# =============================================================================
-# FILE TYPE ASSOCIATIONS (SYSTEM SPECIFIC)
-# =============================================================================
-
 # MIME type associations (system/user specific)
-mimeapps.list
+config/mimeapps.list
 **/mimeapps.list
-filetypesrc
+config/filetypesrc
 **/filetypesrc
-
-# Application defaults
 **/applications/defaults.list
 **/applications/mimeinfo.cache
 
@@ -411,16 +395,6 @@ filetypesrc
 **/backblaze/
 **/crashplan/
 
-# Application cache/data (privacy risk)
-winboat/                    # Entire directory - browser-like app data
-dconf/user                  # System settings database
-libaccounts-glib/          # Account databases
-
-# GIMP files (may contain personal project data)
-GIMP/3.0/                  # Personal GIMP settings/plugins
-
-# Personal external tools in Kate
-kate/externaltools/        # May contain personal scripts/paths
 
 # =============================================================================
 # SAFE FILES TO REVIEW BEFORE COMMITTING

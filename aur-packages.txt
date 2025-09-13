@@ -1,22 +1,14 @@
+# AUR packages - generated on Cts 13 Eyl 2025 22:10:08 +03
+# Run 'yay -S --needed $(cat aur-packages.txt)' to install
+
 adwaita-dark
-anydesk-bin
-burpsuite
-checkupdates-with-aur
-cloudflare-warp-bin
-droidcam
-grimblast-git
-hoppscotch-bin
-hyprshade
-iriunwebcam-bin
-jetbrains-toolbox
 nbfc-linux
-nordpass-bin
-python-pywalfox
-python-screeninfo
-reqable-bin
+ocs-url
+osu-lazer
+protontricks
+python-vdf
+slack-desktop
 spotify
-ttf-poppins
+stremio
 unetbootin
-waypaper
-wlogout
 wootility
