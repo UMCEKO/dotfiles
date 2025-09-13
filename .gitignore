@@ -1,58 +1,456 @@
-NordPass/
-dconf/
-pulse/
-spotify/
-discord/
-gh/
-chromium/
-mimeapps.list
-wootility/
-nwg-look/
-nextjs-nodejs/
-ml4w/settings/sidepad-active
-vlc/
-vesktop/
-user-dirs*
-unity3d/
-trashrc
-systemd/
-spotify-tui/
-simple-update-notifier/
-session/
-rog/
-pavucontrol.ini
-Android Open Source Project/
-Blackmagic Design/
-Google/
-QtProject.conf/
-autostart/
-dolphinrc
-filetypesrc
-flutter/
-github-copilot/
-github-copilot/
-go/
-htop/
-io.hoppscotch.desktop/
-kde.org/
-QtProject.conf
-knfsshare
-libreoffice/
-obs-studio/
-JetBrains/
+# =============================================================================
+# ULTIMATE KDE DOTFILES .GITIGNORE FOR PUBLIC REPOSITORIES
+# =============================================================================
+# This file excludes sensitive, personal, and system-specific configurations
+# while allowing safe KDE theming and preference files to be shared publicly.
+# =============================================================================
 
-# ---- Cache / build / state ----
+# =============================================================================
+# CRITICAL SECURITY - NEVER COMMIT THESE
+# =============================================================================
+
+# Password managers and authentication
+NordPass/
+1Password*/
+Bitwarden/
+KeePass*/
+LastPass/
+**/kwallet*
+**/keyrings/
+**/kpasswdserver/
+**/plasma-vault/
+
+# SSH keys and certificates
+**/.ssh/
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.crt
+**/*.cer
+
+# Git credentials and tokens
+gh/
+**/git-credentials
+**/.gitconfig-personal
+**/github-token*
+
+# API keys and secrets
+**/*secret*
+**/*password*
+**/*token*
+**/*api*key*
+**/.env
+**/.env.*
+
+# =============================================================================
+# PERSONAL DATA & COMMUNICATIONS
+# =============================================================================
+
+# Communication apps
+discord/
+vesktop/
+telegram/
+signal/
+whatsapp/
+slack/
+teams/
+zoom/
+
+# Email and contacts
+**/emaildefaults
+**/emailidentities
+**/kmailrc
+**/kmail2rc
+**/akonadi*
+**/kaddressbookrc
+**/korganizer*
+**/kaccounts/
+thunderbird/
+
+# Browsers (contain cookies, passwords, bookmarks)
+chromium/
+google-chrome/
+firefox/
+brave/
+opera/
+vivaldi/
+Microsoft/
+Google/
+mozilla/
+
+# =============================================================================
+# ENTERTAINMENT & MEDIA
+# =============================================================================
+
+# Music and streaming
+spotify/
+spotify-tui/
+spotify-qt/
+tidal/
+apple-music/
+youtube-music/
+plex/
+
+# Media players with personal data
+vlc/
+mpv/
+audacious/
+clementine/
+
+# Gaming platforms
+steam/
+epic-games/
+gog/
+origin/
+uplay/
+battle.net/
+minecraft/
+
+# =============================================================================
+# DEVELOPMENT & WORK ENVIRONMENTS
+# =============================================================================
+
+# IDEs with personal projects and settings
+JetBrains/
+vscode/
+Code/
+sublime-text*/
+atom/
+brackets/
+android-studio/
+
+# AI coding assistants (may contain code/tokens)
+github-copilot/
+codeium/
+tabnine/
+
+# Cloud development platforms
+replit/
+gitpod/
+codespaces/
+
+# Language-specific environments
+go/
+cargo/
+npm/
+yarn/
+pip/
+maven/
+gradle/
+composer/
+
+# Framework-specific configs
+nextjs-nodejs/
+flutter/
+react-native/
+unity3d/
+unreal-engine/
+
+# Virtual environments and containers
+docker/
+podman/
+virtualenv/
+conda/
+vagrant/
+
+# =============================================================================
+# HARDWARE & SYSTEM SPECIFIC
+# =============================================================================
+
+# Hardware control software
+rog/                    # ASUS ROG
+wootility/             # Wooting keyboards
+razer/
+corsair/
+logitech/
+steelseries/
+
+# Audio/video hardware
+pulse/
+pipewire/
+pavucontrol.ini
+obs-studio/
+elgato/
+streamdeck/
+Blackmagic Design/
+
+# Mobile device sync
+Android Open Source Project/
+iTunes/
+icloud/
+samsung/
+xiaomi/
+
+# =============================================================================
+# NETWORK & CONNECTIVITY
+# =============================================================================
+
+# Network configurations
+**/networkmanagement
+**/bluetooth/
+**/wifi/
+**/vpn/
+**/kdeconnect/
+**/network-manager/
+
+# Remote access
+**/ssh/
+**/remmina/
+**/teamviewer/
+**/anydesk/
+**/rdp/
+
+# =============================================================================
+# PERSONAL FILES & HISTORY
+# =============================================================================
+
+# Personal bookmarks and places
+**/bookmarks.xml
+**/user-places.xbel
+**/recentdocuments/
+**/recently-used.xbel
+**/recent-files*
+
+# File manager history
+**/dolphin/view_properties/
+**/nautilus/
+**/thunar/
+**/pcmanfm/
+
+# Search and indexing
+**/baloo/
+**/tracker/
+**/zeitgeist/
+
+# Terminal history
+**/konsole/*history*
+**/bash_history
+**/zsh_history
+**/fish_history
+
+# Editor history and sessions
+**/kate/metainfos
+**/kate/sessions/
+**/vim/sessions/
+**/nvim/sessions/
+
+# =============================================================================
+# USER DIRECTORIES & PERSONAL PATHS
+# =============================================================================
+
+# User directory configurations
+user-dirs*
+**/user-dirs.dirs
+**/user-dirs.locale
+
+# Trash and temporary files
+trashrc
+**/Trash/
+**/trash/
+
+# Personal autostart applications
+autostart/
+**/plasma/shells/org.kde.plasma.desktop/contents/updates/
+
+# Custom service menus (may contain personal scripts)
+servicemenus/
+
+# =============================================================================
+# SYSTEM SERVICES & HARDWARE CONFIG
+# =============================================================================
+
+# System service configurations
+systemd/
+**/systemd/user/
+
+# Power management (hardware specific)
+**/powerdevilrc
+**/tlp/
+**/powertop/
+
+# Device automounting
+**/device_automounter_kcmrc
+**/udisks2/
+
+# Hardware abstraction
+**/solid_actions/
+**/udev/
+
+# Display configuration (monitor specific)
+**/kscreenrc
+**/kdisplayrc
+**/xrandr/
+**/wayland-sessions/
+
+# Window rules (may contain app-specific paths)
+**/kwinrulesrc
+
+# =============================================================================
+# CACHE, LOGS, AND TEMPORARY FILES
+# =============================================================================
+
+# Cache directories
 .cache/
-tmp/
+**/cache/
+**/tmp/
+**/temp/
+**/.thumbnails/
+
+# Session data
+**/session/
+**/sessions/
+**/kactivity*
+**/plasma-activities/
+
+# Log files
+**/*.log
+**/logs/
+
+# Backup files
 *.tmp
 *.bak
 *.backup
 *.orig
 *.rej
+*.swp
+*.swo
+*~
+.#*
+
+# Build artifacts
 *.toc
 *.aux
 *.o
 *.obj
+*.so
+*.so.*
 *.pyc
 *.pyo
-__pycache__/
+**/__pycache__/
+**/node_modules/
+**/target/
+**/build/
+**/dist/
+
+# =============================================================================
+# APPLICATION-SPECIFIC EXCLUSIONS
+# =============================================================================
+
+# Office suites (may contain recent documents)
+libreoffice/
+onlyoffice/
+wps-office/
+
+# Design software (large caches, personal projects)
+gimp/
+inkscape/
+blender/
+krita/
+darktable/
+
+# Video editing (large caches, personal projects)
+kdenlive/
+davinci-resolve/
+openshot/
+
+# 3D modeling
+freecad/
+openscad/
+
+# Archive managers
+**/ark/
+
+# System monitors
+htop/
+btop/
+gtop/
+**/ksysguard/
+
+# Package managers
+**/yay/
+**/paru/
+**/pamac/
+**/discover/
+
+# Theming tools (review - some may be safe)
+lxappearance/
+qt5ct/
+qt6ct/
+
+# =============================================================================
+# FILE TYPE ASSOCIATIONS (SYSTEM SPECIFIC)
+# =============================================================================
+
+# MIME type associations (system/user specific)
+mimeapps.list
+**/mimeapps.list
+filetypesrc
+**/filetypesrc
+
+# Application defaults
+**/applications/defaults.list
+**/applications/mimeinfo.cache
+
+# =============================================================================
+# CLOUD SERVICES & SYNC
+# =============================================================================
+
+# Cloud storage
+**/dropbox/
+**/onedrive/
+**/google-drive/
+**/nextcloud/
+**/owncloud/
+**/mega/
+**/box/
+**/icloud/
+
+# Backup services
+**/carbonite/
+**/backblaze/
+**/crashplan/
+
+# Application cache/data (privacy risk)
+winboat/                    # Entire directory - browser-like app data
+dconf/user                  # System settings database
+libaccounts-glib/          # Account databases
+
+# GIMP files (may contain personal project data)
+GIMP/3.0/                  # Personal GIMP settings/plugins
+
+# Personal external tools in Kate
+kate/externaltools/        # May contain personal scripts/paths
+
+# =============================================================================
+# SAFE FILES TO REVIEW BEFORE COMMITTING
+# =============================================================================
+
+# These files MIGHT be safe but should be manually reviewed:
+# - kdeglobals (global KDE settings)
+# - kwinrc (window manager settings)
+# - kglobalshortcutsrc (keyboard shortcuts - check for personal app paths)
+# - plasma-org.kde.plasma.desktop-appletsrc (desktop layout - check for personal widgets)
+# - plasmashellrc (panel configuration)
+# - konsolerc (terminal settings - remove recent files section)
+# - katerc (text editor settings)
+# - systemsettingsrc (system settings UI preferences)
+# - krunnerrc (application launcher settings)
+# - Custom color schemes in ~/.local/share/color-schemes/
+# - Custom Plasma themes in ~/.local/share/plasma/
+
+# =============================================================================
+# NOTES FOR MAINTAINERS
+# =============================================================================
+
+# Before committing any KDE config files:
+# 1. Run: grep -r "$(whoami)" . (check for usernames)
+# 2. Run: grep -r "$HOME" . (check for home paths)
+# 3. Run: grep -r "Recent" . (check for recent files)
+# 4. Run: grep -r "@.*\.com" . (check for email addresses)
+# 5. Manually review plasma layout files for personal widgets
+# 6. Remove any window geometry/position settings
+# 7. Remove any file paths in konsole/kate configs
+
+# Remember: When in doubt, DON'T commit it!
+# It's better to have a minimal public config than expose personal data.

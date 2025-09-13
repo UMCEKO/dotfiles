@@ -1,0 +1,17 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/CyWHrwkYYudv.png
+File2[$e]=$HOME/Desktop/Discord/discord.png
+Name1[$e]=CyWHrwkYYudv.png
+Name2[$e]=discord.png
+
+[SideBar]
+InformationSplitterSizes=220,255
+IsVisible ViewMode=true
+SideBarSplitterSizes=227,1966
