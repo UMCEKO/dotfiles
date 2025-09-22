@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-4b0d191c-bbe7-4695-a39e-1ffb03452d2b=none,none,Switch to activity "Default"
+switch-to-activity-a770ccb7-a59b-42a5-bcfc-1ec09d160200=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,
@@ -24,7 +25,7 @@ mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
-Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
+Lock Session=Screensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 LogOut=none,,Log Out
@@ -237,6 +238,7 @@ activate widget 106=none,none,Activate Application Launcher Widget
 activate widget 131=none,none,Activate Application Launcher Widget
 activate widget 157=none,none,Activate Application Launcher Widget
 activate widget 182=none,none,Activate Application Launcher Widget
+activate widget 237=none,none,Activate Application Launcher Widget
 activate widget 31=none,none,Activate Application Launcher Widget
 activate widget 5=none,none,Activate Application Launcher Widget
 activate widget 56=none,none,Activate Application Launcher Widget
@@ -260,7 +262,7 @@ switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
 [services][Alacritty.desktop]
-New=Meta+Return
+_launch=Meta+Return
 
 [services][org.kde.konsole.desktop]
 _launch=none

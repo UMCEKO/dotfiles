@@ -6,8 +6,8 @@ return {
     "neovim/nvim-lspconfig",
     dependencies = {
       -- These plugins automatically manage LSP server installations
-      "williamboman/mason-lspconfig.nvim",
-      "williamboman/mason.nvim",
+      "mason-org/mason-lspconfig.nvim",
+      "mason-org/mason.nvim",
     },
     opts = {
       servers = {

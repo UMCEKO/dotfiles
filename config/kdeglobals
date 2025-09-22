@@ -111,7 +111,6 @@ Breadcrumb Navigation=true
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -125,7 +124,8 @@ Speedbar Width=140
 View Style=DetailTree
 
 [KScreen]
-ScreenScaleFactors=eDP-1=1;DP-1=1;DP-2=1;
+ScreenScaleFactors=DP-1=1;DP-2=1;
+XwaylandClientsScale=true
 
 [WM]
 activeBackground=47,52,63

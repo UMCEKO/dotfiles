@@ -1,7 +1,8 @@
 [Annotations]
-annotationToolType=10
+annotationToolType=6
 highlighterStrokeColor=0,0,0
 highlighterStrokeWidth=10
+rectangleFillColor=0,0,0
 textFont=Noto Sans,20,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
 
 [ImageSave]

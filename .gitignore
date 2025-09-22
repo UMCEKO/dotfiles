@@ -395,6 +395,7 @@ config/filetypesrc
 **/backblaze/
 **/crashplan/
 
+backups/
 
 # =============================================================================
 # SAFE FILES TO REVIEW BEFORE COMMITTING
