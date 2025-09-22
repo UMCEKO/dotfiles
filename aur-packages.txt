@@ -1,14 +1,23 @@
-# AUR packages - generated on Cts 13 Eyl 2025 22:10:08 +03
+# AUR packages - generated on Pzt 22 Eyl 2025 13:53:44 +03
 # Run 'yay -S --needed $(cat aur-packages.txt)' to install
 
 adwaita-dark
+debtap
+libgbinder
+libglibutil
 nbfc-linux
 ocs-url
 osu-lazer
+phonon-qt6-mpv
+polychromatic
 protontricks
+python-gbinder
 python-vdf
 slack-desktop
 spotify
 stremio
 unetbootin
+vesktop
+waydroid
+whatsie
 wootility
