@@ -1,12 +1,14 @@
 [Annotations]
-annotationToolType=6
-highlighterStrokeColor=0,0,0
+annotationToolType=2
+freehandStrokeColor=255,255,255
+freehandStrokeWidth=1
+highlighterStrokeColor=255,0,0
 highlighterStrokeWidth=10
 rectangleFillColor=0,0,0
 textFont=Noto Sans,20,-1,0,400,0,0,0,0,0,0,0,0,0,0,1
 
 [ImageSave]
-lastImageSaveLocation=file:///home/umceko/Pictures/Screenshots/Screenshot_20250910_211150.png
+lastImageSaveLocation=file:///home/umceko/Pictures/Screenshots/Screenshot_20251103_013056.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

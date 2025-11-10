@@ -23,9 +23,7 @@ return {
                 -- 2. Your manual override for your specific file patterns.
                 --    This takes precedence.
                 ["https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.27.0-standalone-strict/all.json"] = {
-                  "*.k8s.yaml",
                   "deployment.yaml",
-                  "k8s/*",
                   "kube/*",
                 },
                 ["https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"] = "docker-compose.yaml",

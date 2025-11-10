@@ -9,11 +9,15 @@ MenuBar=Disabled
 File1[$e]=$HOME/Downloads/CyWHrwkYYudv.png
 File2[$e]=$HOME/Desktop/Discord/discord.png
 File3[$e]=$HOME/Downloads/uni.png
+File4[$e]=$HOME/Downloads/image.png
+File5[$e]=$HOME/Downloads/IMG_2454.png
 Name1[$e]=CyWHrwkYYudv.png
 Name2[$e]=discord.png
 Name3[$e]=uni.png
+Name4[$e]=image.png
+Name5[$e]=IMG_2454.png
 
 [SideBar]
 InformationSplitterSizes=220,255
 IsVisible ViewMode=true
-SideBarSplitterSizes=227,1692
+SideBarSplitterSizes=227,1689

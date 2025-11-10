@@ -18,6 +18,7 @@ alias vim='$EDITOR'
 alias ts='~/.config/ml4w/scripts/arch/snapshot.sh'
 alias wifi='nmtui'
 alias cleanup='~/.config/ml4w/scripts/cleanup.sh'
+alias k='kubectl'
 
 # -----------------------------------------------------
 # ML4W Apps

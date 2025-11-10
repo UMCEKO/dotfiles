@@ -1,23 +1,34 @@
-# AUR packages - generated on Pzt 22 Eyl 2025 13:53:44 +03
+# AUR packages - generated on Pzt 10 Kas 2025 10:39:02 +03
 # Run 'yay -S --needed $(cat aur-packages.txt)' to install
 
 adwaita-dark
+android-sdk-platform-tools
 debtap
-libgbinder
-libglibutil
+google-cloud-cli
+google-cloud-cli-component-gke-gcloud-auth-plugin
+gromit-mpx
+gtk2
+jdk17-temurin
+jdk-temurin
+libpng12
+maliit-framework
+maliit-keyboard
 nbfc-linux
+nvenc
 ocs-url
+opentabletdriver
 osu-lazer
 phonon-qt6-mpv
 polychromatic
+presage
 protontricks
-python-gbinder
 python-vdf
+q
 slack-desktop
 spotify
 stremio
 unetbootin
 vesktop
-waydroid
 whatsie
 wootility
+yp-tools

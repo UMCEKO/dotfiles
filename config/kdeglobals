@@ -96,7 +96,13 @@ ForegroundNormal=211,218,227
 ForegroundPositive=113,247,159
 ForegroundVisited=179,13,191
 
+[DirSelect Dialog]
+DirSelectDialog Size=1267,759
+History Items[$e]=file:///mnt/games,file:$HOME/.steam/steam/,file:$HOME,file:$HOME/.steam/,file:///projects/Stockimg-AI,file:///projects/Stockimg-AI/bruno
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
 [General]
+BrowserApplication=brave-browser.desktop
 ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
@@ -107,16 +113,14 @@ LookAndFeelPackage=Sweet
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
-Sort by=Name
+Show hidden files=true
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false

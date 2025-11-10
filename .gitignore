@@ -78,6 +78,11 @@ config/vivaldi/
 config/Microsoft/
 config/Google/
 config/mozilla/
+config/kwinoutputconfig.json
+config/kwinrc
+config/kcminputrc
+config/kde.org/UserFeedback.*
+
 
 # =============================================================================
 # ENTERTAINMENT & MEDIA
