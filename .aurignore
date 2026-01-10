@@ -1,25 +1,44 @@
-# Hardware/brand specific
-asusctl-git
-supergfxctl-git
-rog-control-center-git
+# Hardware/brand specific - Laptop vendors
+asusctl*
+supergfxctl*
+rog-control-center*
 g14-*
 g15-*
+thinkpad-*
+dell-*
+hp-*
+
+# Peripheral hardware
+nbfc-linux
+opentabletdriver
+polychromatic
+wootility
+openrazer*
+solaar
+piper
+
+# GPU specific
+nvidia-*
+nvenc
+optimus-*
+corectrl*
+gwe*
+nvidia-settings*
+amdgpu-*
+radeon-*
 
 # Distro specific
 endeavouros-*
 eos-*
 garuda-*
 manjaro-*
+cachyos-*
 
 # Development versions that change frequently
 *-git
 *-bin
 *-dev
 *-nightly
-
-# NVIDIA proprietary (hardware specific)
-nvidia-*
-optimus-*
 
 # Personal/local packages
 makepkg-*
@@ -49,8 +68,3 @@ wine*
 *-ide
 *-studio
 jetbrains-*
-
-# System monitoring (hardware dependent)
-corectrl*
-gwe*
-nvidia-settings*

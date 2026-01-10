@@ -1,15 +1,14 @@
-# Official Arch packages - generated on Pzt 10 Kas 2025 10:39:02 +03
+# Official Arch packages - generated on Cts 10 Oca 2026 04:43:44 +03
 # Run 'sudo pacman -S --needed $(cat pacman-packages.txt)' to install
 
 7zip
-aarch64-linux-gnu-gcc
 accountsservice
 adw-gtk-theme
 alacritty
-alsa-firmware
 alsa-plugins
 alsa-utils
 android-tools
+argocd
 ark
 aspell
 aws-cli-v2
@@ -34,7 +33,6 @@ cuda
 device-mapper
 diffutils
 discord
-dmidecode
 dmraid
 docker
 docker-buildx
@@ -49,6 +47,7 @@ dunst
 e2fsprogs
 efibootmgr
 efitools
+eksctl
 ethtool
 exfatprogs
 eza
@@ -56,15 +55,17 @@ f2fs-tools
 fastfetch
 ffmpegthumbnailer
 ffmpegthumbs
-firefox
+filelight
 fish
 flatpak
 fuzzel
 fwupd
+gamemode
 gimp
 git
 github-cli
 glances
+graphviz
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
@@ -76,7 +77,6 @@ hdparm
 helm
 helvum
 hwdetect
-hwinfo
 hyprland
 hyprshot
 inetutils
@@ -96,6 +96,7 @@ kde-gtk-config
 kdenetwork-filesharing
 kdenlive
 kdeplasma-addons
+kfind
 kgamma
 kimageformats
 kinfocenter
@@ -110,7 +111,7 @@ kubectl
 kwallet-pam
 kwayland-integration
 less
-lib32-nvidia-utils
+lib32-gamemode
 libappindicator
 libdvdcss
 libgsf
@@ -125,6 +126,7 @@ lsscsi
 lvm2
 lxappearance
 man-db
+mangohud
 man-pages
 mdadm
 meld
@@ -132,6 +134,7 @@ mingw-w64-gcc
 mingw-w64-headers
 mkinitcpio
 modemmanager
+msitools
 mtools
 nano
 nano-syntax-highlighting
@@ -150,9 +153,9 @@ ntfs-3g
 ntp
 nvtop
 obs-studio
+octave
 okular
 openbsd-netcat
-opencl-nvidia
 open-iscsi
 openrazer-daemon
 openssh
@@ -177,7 +180,6 @@ plasma-x11-session
 plocate
 poppler-glib
 powerdevil
-power-profiles-daemon
 print-manager
 prismlauncher
 pulumi
@@ -187,6 +189,7 @@ python
 python-defusedxml
 python-packaging
 python-pip
+rclone
 rebuild-detector
 reflector
 reflector-simple
@@ -197,10 +200,10 @@ rustup
 sddm-kcm
 sg3_utils
 s-nail
-sof-firmware
 spectacle
 speedtest-cli
 sshfs
+starship
 steam
 stubby
 sudo
@@ -217,12 +220,14 @@ tldr
 tmux
 traceroute
 tree
+typescript-language-server
 unrar
 unzip
 upower
 usb_modeswitch
 usbutils
 vi
+video-trimmer
 waybar
 waypipe
 websocat
@@ -230,6 +235,7 @@ welcome
 wev
 wget
 which
+whois
 wine
 wireplumber
 wofi
@@ -246,6 +252,9 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
+xournalpp
 xsettingsd
 xsv
 xterm
+zsh
+zsh-autosuggestions

@@ -1,19 +1,33 @@
-# Hardware specific packages
+# Hardware specific packages - GPU
 nvidia*
-amd-ucode
-intel-ucode
+lib32-nvidia*
+opencl-nvidia
+amd*
+lib32-amd*
 mesa*
 vulkan*
 xf86-video*
 
-# ASUS specific
+# CPU specific
+intel-ucode
+amd-ucode
+*-ucode
+
+# ASUS/ROG specific
 asusctl
 supergfxctl
 rog-control-center
 
-# System/distro specific  
+# Laptop specific
+power-profiles-daemon
+tlp*
+acpi*
+laptop-mode-tools
+
+# System/distro specific
 endeavouros-*
 eos-*
+cachyos-*
 archlinux-keyring
 archlinux-wallpaper*
 
@@ -24,14 +38,19 @@ linux*
 broadcom-wl*
 rtl*
 r8168*
+*-firmware
+sof-firmware
+alsa-firmware
 
-# Microcode (CPU specific)
-*-ucode
+# Cross-compilers (dev environment specific)
+aarch64-*
+arm-none-*
 
 # Font packages (too many variants)
 ttf-*
 noto-fonts*
 adobe-source*
+otf-*
 
 # Language packs
 hunspell-*
@@ -48,7 +67,10 @@ pacman
 yay
 paru
 
-# Hardware specific tools
+# Hardware monitoring/control
 lm_sensors
 hddtemp
 smartmontools
+hwinfo
+i2c-tools
+dmidecode
