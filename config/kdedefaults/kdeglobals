@@ -1,8 +1,8 @@
 [General]
-ColorScheme=Sweet
+ColorScheme=Carl
 
 [Icons]
-Theme=candy-icons
+Theme=kora
 
 [KDE]
-widgetStyle=fusion
+widgetStyle=Breeze

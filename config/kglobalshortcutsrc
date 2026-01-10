@@ -207,6 +207,14 @@ playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
 
+[org.chromium.Chromium]
+8C2C8299836426C096A288A131DFF9DB-autofill_card=none,none,Autofill the last used card for the current website
+8C2C8299836426C096A288A131DFF9DB-autofill_identity=none,none,Autofill the last used identity for the current website
+8C2C8299836426C096A288A131DFF9DB-autofill_login=none,none,Autofill the last used login for the current website
+8C2C8299836426C096A288A131DFF9DB-generate_password=none,none,Generate and copy a new random password to the clipboard
+8C2C8299836426C096A288A131DFF9DB-lock_vault=none,none,Lock the vault
+_k_friendly_name=org.chromium.Chromium
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -251,6 +259,9 @@ activate widget 5=none,none,Activate Application Launcher Widget
 activate widget 524=none,none,Activate Application Launcher Widget
 activate widget 550=none,none,Activate Application Launcher Widget
 activate widget 56=none,none,Activate Application Launcher Widget
+activate widget 629=none,none,Activate Application Launcher Widget
+activate widget 682=none,none,Activate Application Launcher Widget
+activate widget 708=none,none,Activate Application Launcher Widget
 activate widget 81=none,none,Activate Application Launcher Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu

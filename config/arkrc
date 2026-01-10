@@ -1,7 +1,5 @@
 [ExtractDialog]
-2 screens: Height=540
-2 screens: Width=1270
-DirHistory[$e]=$HOME/Downloads/
+DirHistory[$e]=$HOME/Downloads/,$HOME/Downloads/pokepasta/
 
 [General]
 LockSidebar=true

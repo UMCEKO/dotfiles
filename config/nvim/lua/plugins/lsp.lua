@@ -27,7 +27,8 @@ return {
                   "kube/*",
                 },
                 ["https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"] = "docker-compose.yaml",
-                ["kubernetes"] = "",
+                -- ArgoCD ApplicationSet
+                ["https://raw.githubusercontent.com/datreeio/CRDs-catalog/main/argoproj.io/applicationset_v1alpha1.json"] = "**/argocd/*.yaml",
               },
             },
           },

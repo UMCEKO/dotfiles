@@ -26,13 +26,6 @@ return {
         -- We configure it to IGNORE helm files so it doesn't report errors on templates
         yamlls = {
           filetypes = { "yaml", "yaml.docker-compose" }, -- Removed "helm"
-          settings = {
-            yaml = {
-              schemas = {
-                kubernetes = "*.yaml",
-              },
-            },
-          },
         },
       },
       setup = {

@@ -16,3 +16,15 @@ vim.diagnostic.config({
     border = "rounded",
   },
 })
+
+vim.filetype.add({
+  extension = {
+    m = "matlab",
+  },
+})
+
+vim.lsp.config("matlab_ls", {
+  settings = {},
+})
+
+vim.lsp.enable("matlab_ls")

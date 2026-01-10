@@ -12,3 +12,5 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
     vim.bo.filetype = "yaml.docker-compose"
   end,
 })
+
+require("config.lsp")

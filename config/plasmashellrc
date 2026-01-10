@@ -196,6 +196,66 @@ floating=1
 [PlasmaViews][Panel 601][Defaults]
 thickness=44
 
+[PlasmaViews][Panel 628]
+floating=1
+
+[PlasmaViews][Panel 628][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 654]
+floating=1
+
+[PlasmaViews][Panel 654][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 681]
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 681][Defaults]
+maxLength=1920
+minLength=1920
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 681][Horizontal1920]
+alignment=1
+
+[PlasmaViews][Panel 707]
+alignment=1
+floating=1
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 707][Defaults]
+maxLength=1366
+minLength=1366
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 707][Horizontal1920]
+alignment=1
+
+[PlasmaViews][Panel 733]
+floating=1
+
+[PlasmaViews][Panel 733][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 760]
+floating=1
+
+[PlasmaViews][Panel 760][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 785]
+floating=1
+
+[PlasmaViews][Panel 785][Defaults]
+thickness=44
+
 [PlasmaViews][Panel 80]
 alignment=1
 floating=1
